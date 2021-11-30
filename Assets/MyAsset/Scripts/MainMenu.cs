@@ -1,7 +1,5 @@
 using System.Data;
 using UnityEngine;
-using UnityEngine.Audio;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace RollABollGame
@@ -12,72 +10,52 @@ namespace RollABollGame
         [SerializeField] private GameObject _panelSettings;
         [SerializeField] private GameObject _panelAbout;
 
-        [SerializeField] private Button _buttonContinue;
-        [SerializeField] private Button _buttonNewGame;
+        public Button buttonContinue;
+        public Button buttonNewGame;
         [SerializeField] private Button _buttonSettings;
         [SerializeField] private Button _buttonAbout;
-        [SerializeField] private Button _buttonExit;
-        [SerializeField] private Button _buttonSettingsApply;
-        [SerializeField] private Button _buttonSettingsCancel;
+        public Button buttonExit;
+        public Button buttonSettingsApply;
+        public Button buttonSettingsCancel;
         [SerializeField] private Button _buttonAboutBack;
 
-        [SerializeField] private Slider _sliderMusic;
-        [SerializeField] private Slider _sliderSound;
-        [SerializeField] private Slider _sliderSensitivity;
+        public Slider sliderMusic;
+        public Slider sliderSound;
+        public Slider sliderSensitivity;
 
-        [SerializeField] private AudioMixer _audioMixer;
         [SerializeField] private AudioSource _soundClick;
-
 
         private bool _menu = true;
         private bool _about = false;
         private bool _settings = false;
-
-        private bool _isGameLoad;
-        private float _music;
-        private float _sound;
-        private float _sensitivity;
-
-        SettingsDataRepository _settingsDataRepository;
 
         private void Awake()
         {
             Exist(_panelMenu);
             Exist(_panelSettings);
             Exist(_panelAbout);
-            Exist(_sliderMusic);
-            Exist(_sliderSound);
-            Exist(_sliderSensitivity);
-            Exist(_audioMixer);
-            Exist(_soundClick);
+            Exist(sliderMusic);
+            Exist(sliderSound);
+            Exist(sliderSensitivity);
+            Exist(buttonContinue);
+            Exist(buttonNewGame);
+            Exist(buttonExit);
 
-            if (Exist(_buttonContinue))
-                _buttonContinue.onClick.AddListener(OnLoadGame);
-            if (Exist(_buttonNewGame))
-                _buttonNewGame.onClick.AddListener(OnNewGame);
+            if (Exist(buttonSettingsApply))
+                buttonSettingsApply.onClick.AddListener(OnMenu);
+            if (Exist(buttonSettingsCancel))
+                buttonSettingsCancel.onClick.AddListener(OnMenu);
             if (Exist(_buttonSettings))
                 _buttonSettings.onClick.AddListener(OnSettings);
             if(Exist(_buttonAbout))
                 _buttonAbout.onClick.AddListener(OnAbout);
-            if(Exist(_buttonExit))
-                _buttonExit.onClick.AddListener(OnExit);
-            if (Exist(_buttonSettingsApply))
-                _buttonSettingsApply.onClick.AddListener(OnSaveSettings);
-            if (Exist(_buttonSettingsCancel))
-                _buttonSettingsCancel.onClick.AddListener(OnLoadSettings);
             if (Exist(_buttonAboutBack))
                 _buttonAboutBack.onClick.AddListener(OnMenu);
-            if (Exist(_sliderMusic))
-                _sliderMusic.onValueChanged.AddListener(VolumeMusic);
-            if (Exist(_sliderSound))
-                _sliderSound.onValueChanged.AddListener(VolumeSound);
-            if (Exist(_sliderSensitivity))
-                _sliderSensitivity.onValueChanged.AddListener(VolumeSensitivity);
 
-            Cursor.visible = true;
             _panelMenu.SetActive(_menu);
             _panelSettings.SetActive(_settings);
             _panelAbout.SetActive(_about);
+            Cursor.visible = true;
         }
         private bool Exist <T> (T value)
         {
@@ -85,109 +63,48 @@ namespace RollABollGame
                 throw new DataException(nameof(value) + " not found");
             return true;
         }
-        private void Start()
+        public void MenuCancelAction()
         {
-            SaveDataRepository _saveFile = new SaveDataRepository();
-            if (!_saveFile.ExistFile())
+            if (!_menu)
             {
-                _buttonContinue.gameObject.SetActive(false);
-            }
-            _settingsDataRepository = new SettingsDataRepository();
-            _settingsDataRepository.LoadSettings(out bool _isGameLoad, out float _music, out float _sound, out float _sensitivity);
-            _audioMixer.SetFloat("Music", _music);
-            _audioMixer.SetFloat("Sound", _sound);
-            _sliderMusic.value = _music;
-            _sliderSound.value = _sound;
-            _sliderSensitivity.value = _sensitivity;
-        }
-        private void Update()
-        {
-            if (Input.GetButtonDown("Cancel") && !_menu)
-            {
-                if(_settings)
+                if (_settings)
                 {
-                    OnLoadSettings();
+                    buttonSettingsCancel.onClick?.Invoke();
+                    OnMenu();
                 }
                 _menu = true;
                 _about = false;
                 _settings = false;
-                MenuActive();
+                MenuAction();
             }
         }
-        private void MenuActive()
+        private void MenuAction()
         {
             _panelMenu.SetActive(_menu);
             _panelSettings.SetActive(_settings);
             _panelAbout.SetActive(_about);
             _soundClick.Play();
         }
-        public void OnLoadGame()
-        {
-            _isGameLoad = true;
-            _settingsDataRepository.SaveSettings(_isGameLoad, _music, _sound, _sensitivity);
-            SceneManager.LoadScene(1);
-        }
-        public void OnNewGame()
-        {
-            _isGameLoad = false;
-            _settingsDataRepository.SaveSettings(_isGameLoad, _music, _sound, _sensitivity);
-            SceneManager.LoadScene(1);
-        }
         public void OnSettings()
         {
             _menu = false;
             _about = false;
             _settings = true;
-            MenuActive();
+            MenuAction();
         }
-        public void OnLoadSettings()
-        {
-            _settingsDataRepository.LoadSettings(out bool _isGameLoad, out float _music, out float _sound, out float _sensitivity);
-            _audioMixer.SetFloat("Music", _music);
-            _audioMixer.SetFloat("Sound", _sound);
-            _sliderMusic.value = _music;
-            _sliderSound.value = _sound;
-            _sliderSensitivity.value = _sensitivity;
-            OnMenu();
-        }
-        public void OnSaveSettings()
-        {
-            _settingsDataRepository.SaveSettings(_isGameLoad, _music, _sound, _sensitivity);
-            OnMenu();
-        }
-        public void VolumeSensitivity(float sliderValue)
-        {
-            _sensitivity = sliderValue;
-        }
-        public void VolumeMusic(float sliderValue)
-        {
-            _audioMixer.SetFloat("Music", sliderValue);
-            _music = sliderValue;
-        }
-        public void VolumeSound(float sliderValue)
-        {
-            _audioMixer.SetFloat("Sound", sliderValue);
-            _sound = sliderValue;
-        }
-
         public void OnAbout()
         {
             _menu = false;
             _about = true;
             _settings = false;
-            MenuActive();
+            MenuAction();
         }
         public void OnMenu()
         {
             _menu = true;
             _about = false;
             _settings = false;
-            MenuActive();
+            MenuAction();
         }
-        public void OnExit()
-        {
-            Application.Quit();
-        }
-
     }
 }

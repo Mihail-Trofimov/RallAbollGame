@@ -28,10 +28,10 @@ namespace RollABollGame
         private List<IExecute> _objectsExecute;
         private List<IFixExecute> _objectsFixExecute;
 
-        CameraController _cameraController;
-        InputController _inputController;
+        private CameraController _cameraController;
+        private InputController _inputController;
 
-        Score _score;
+        private Score _score;
 
         public delegate void CoinMaxUp();
         public event CoinMaxUp coinMaxUpEvent;
@@ -39,7 +39,7 @@ namespace RollABollGame
         private SaveDataRepository _saveDataRepository;
         private SettingsDataRepository _settingsDataRepository;
 
-        PlayerBall _player;
+        private PlayerBall _player;
 
         private void Awake()
         {
@@ -48,7 +48,7 @@ namespace RollABollGame
             _player.playerJumpEvent += SFXCreate;
             _keysPlayer = new List<int>();
             _saveDataRepository = new SaveDataRepository();
-            _score = new Score(_gameMenu._textScore);
+            _score = new Score();
             coinMaxUpEvent += _score.ScoreMaxUp;
             Physics.autoSimulation = true;
             Cursor.visible = false;
@@ -59,15 +59,13 @@ namespace RollABollGame
             _objectsExecute = new List<IExecute>();
             _objectsFixExecute = new List<IFixExecute>();
 
+            _doors = FindObjectsOfType<Door>();
+
             foreach (var obj in objectsInteractive)
             {
                 _objectsInteractive.Add(obj);
                 obj.destroyObjectInteractiveEvent += ObjectDestroy;
-            }
-            _doors = FindObjectsOfType<Door>();
 
-            foreach (var obj in _objectsInteractive)
-            {
                 if (obj is IExecute execute)
                 {
                     _objectsExecute.Add(execute);
@@ -109,24 +107,24 @@ namespace RollABollGame
                 {
                     lift.playerInLiftEvent += SFXCreate;
                 }
-                
             }
-
             _cameraController = new CameraController(_player.transform, reference.MainCamera.transform);
             _objectsExecute.Add(_cameraController);
-
             _inputController = new InputController(_player, reference.MainCamera.transform);
             _inputController.menuActionEvent += _gameMenu.MenuAction;
             _objectsExecute.Add(_inputController);
             _objectsFixExecute.Add(_inputController);
-
             _gameMenu.sliderSensitivity.onValueChanged.AddListener(_cameraController.SensChanged);
+            _gameMenu.sliderMusic.onValueChanged.AddListener(VolumeMusic);
+            _gameMenu.sliderSound.onValueChanged.AddListener(VolumeSound);
             _gameMenu.pauseGameEvent += _inputController.GamePause;
             _gameMenu.pauseGameEvent += _cameraController.GamePause;
             _gameMenu.saveGameEvent += SaveGame;
             _gameMenu.loadGameEvent += LoadGame;
             _gameMenu.pauseGameEvent += Pause;
             _gameMenu.resetGameEvent += ResetGame;
+            _gameMenu.buttonMainMenu.onClick.AddListener(OnMainMenu);
+            _gameMenu.buttonEndMainMenu.onClick.AddListener(OnMainMenu);
             _gameMenu.loadSettingsEvent += LoadSetting;
             _gameMenu.saveSettingsEvent += SaveSettings;
         }
@@ -136,7 +134,7 @@ namespace RollABollGame
             if (IsGameLoad)
             {
                 LoadingGame();
-                _score.ScoreUpdate();
+                ScoreUpdate();
                 if (_player.transform.position.y > 6)
                 {
                     _roof.transform.Find("Body").transform.gameObject.SetActive(true);
@@ -152,16 +150,34 @@ namespace RollABollGame
             float _music, _sound, _sens;
             _settingsDataRepository = new SettingsDataRepository();
             _settingsDataRepository.LoadSettings(out IsGameLoad, out _music, out _sound, out _sens);
-            Debug.Log(_music + " ; " + _sound + " ; " + _sens);
-            _gameMenu.OnLoadSettings(_music, _sound, _sens);
             _audioMixer.SetFloat("Music", _music);
             _audioMixer.SetFloat("Sound", _sound);
             _cameraController.SensChanged(_sens);
+            _gameMenu.sliderSensitivity.value = _sens;
+            _gameMenu.sliderMusic.value = _music;
+            _gameMenu.sliderSound.value = _sound;
         }
         private void SaveSettings()
         {
             _settingsDataRepository.SaveSettings(IsGameLoad, _audioMixer, _cameraController.GetSens());
             LoadSetting();
+        }
+        private void VolumeMusic(float sliderValue)
+        {
+            _audioMixer.SetFloat("Music", sliderValue);
+        }
+        private void VolumeSound(float sliderValue)
+        {
+            _audioMixer.SetFloat("Sound", sliderValue);
+        }
+        public void ScoreUpdate()
+        {
+            _gameMenu.ScoreUpdate(_score.DisplayScore());
+        }
+        public void OnMainMenu()
+        {
+            Pause(false);
+            SceneManager.LoadScene(0);
         }
         private void ResetGame()
         {
@@ -204,7 +220,6 @@ namespace RollABollGame
             }
             _saveDataRepository.Load(_player, _score, _coinList, _keyList, _doors, _keysPlayer);
         }
-
         private void Pause(bool value)
         {
             Physics.autoSimulation = !value;
@@ -213,11 +228,6 @@ namespace RollABollGame
         {
             SFXCreate(position, clip);
             _gameMenu.OnEnd(_score.DisplayEndScore());
-        }
-        private void PlayerTakeCoin(Vector3 position, AudioClip clip)
-        {
-            _score.ScoreUp();
-            SFXCreate(position, clip);
         }
         private IEnumerator PlaySFX(SFX sound)
         {
@@ -230,6 +240,12 @@ namespace RollABollGame
         {
             SFX _sound = new SFX(position, clip, _soundMixer);
             StartCoroutine(PlaySFX(_sound));
+        }
+        private void PlayerTakeCoin(Vector3 position, AudioClip clip)
+        {
+            _score.ScoreUp();
+            ScoreUpdate();
+            SFXCreate(position, clip);
         }
         private void PlayerInWater(bool value, Vector3 position, AudioClip clip)
         {
@@ -250,19 +266,6 @@ namespace RollABollGame
                 door.OpenDoor(value);
             }
         }
-        private void ObjectDestroy(ObjectInteractive obj)
-        {
-            if (obj is IExecute execute)
-            {
-                _objectsExecute.Remove(execute);
-            }
-            if (obj is IFixExecute fix)
-            {
-                _objectsFixExecute.Remove(fix);
-            }
-            _objectsInteractive.Remove(obj);
-        }
-
         private void Update()
         {
             foreach (var execute in _objectsExecute)
@@ -292,6 +295,18 @@ namespace RollABollGame
             }
         }
 
+        private void ObjectDestroy(ObjectInteractive obj)
+        {
+            if (obj is IExecute execute)
+            {
+                _objectsExecute.Remove(execute);
+            }
+            if (obj is IFixExecute fix)
+            {
+                _objectsFixExecute.Remove(fix);
+            }
+            _objectsInteractive.Remove(obj);
+        }
         public void Dispose()
         {
             foreach (var obj in _objectsInteractive)
@@ -302,15 +317,11 @@ namespace RollABollGame
                 }
                 if (obj is Water water)
                 {
-                    water.playerInWaterEvent -= PlayerInWater;
+                    water.playerInWaterEvent += PlayerInWater;
                 }
                 if (obj is Boost boost)
                 {
                     boost.playerTakeBoostEvent -= PlayerTakeBoost;
-                }
-                if (obj is Key key)
-                {
-                    key.playerTakeKeyEvent -= PlayerTakeKey;
                 }
                 if (obj is Trap trap)
                 {
@@ -319,6 +330,10 @@ namespace RollABollGame
                 if (obj is Luke luke)
                 {
                     luke.playerInLukeEvent -= SFXCreate;
+                }
+                if (obj is Key key)
+                {
+                    key.playerTakeKeyEvent -= PlayerTakeKey;
                 }
                 if (obj is EndGame endGame)
                 {

@@ -23,7 +23,6 @@ namespace RollABollGame
 			_mainCamera = mainCamera;
 			_mainCamera.LookAt(_player);
 			_offset = new Vector3(0, 30, 0);
-			//_offset = _mainCamera.position - _player.position;
 		}
 		public void GamePause(bool value)
 		{
