@@ -30,7 +30,6 @@ namespace RollABollGame
             {
                 _rigidbody.AddForce(Vector3.up * _jumpPower / _fine, ForceMode.VelocityChange);
                 playerJumpEvent?.Invoke(transform.position, _jumpSound);
-                Debug.Log("Jump");
             }
         }
         public override void Boost(Vector3 moveDirection)
@@ -42,12 +41,10 @@ namespace RollABollGame
             if (value)
             {
                 _fine = Fine;
-                Debug.Log("Water " + value);
             }
             else
             {
                 _fine = 1f;
-                Debug.Log("Water " + value);
             }
         }
     }

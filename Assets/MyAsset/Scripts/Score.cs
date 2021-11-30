@@ -11,42 +11,25 @@ namespace RollABollGame
         public int Coin
         {
             get
-            {
-                return _score;
-            }
+            { return _score; }
             set
-            {
-                _score = value;
-            }
-            
+            { _score = value; }
         }
         private int _scoreMax;
         public int CoinMax
         {
             get
-            {
-                return _scoreMax;
-            }
+            { return _scoreMax; }
             set
-            {
-                _scoreMax = value;
-            }
-
+            { _scoreMax = value; }
         }
-
-        private Text _text;
-        public Score(Text text)
+        public Score()
         {
-            _text = text;
+            _score = 0;
         }
         public void ScoreUp()
         {
             _score++;
-            ScoreUpdate();
-        }
-        public void ScoreUpdate()
-        {
-            _text.text = _score.ToString();
         }
         public void ScoreMaxUp()
         {

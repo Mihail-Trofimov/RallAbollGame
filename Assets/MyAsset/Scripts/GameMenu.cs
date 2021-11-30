@@ -14,10 +14,6 @@ namespace RollABollGame
         private bool _score = true;
         private bool _end = false;
 
-        float _music;
-        float _sound;
-        float _sensitivity;
-
         [SerializeField] private GameObject _panelMain;
         [SerializeField] private GameObject _panelMenu;
         [SerializeField] private GameObject _panelSettings;
@@ -31,19 +27,18 @@ namespace RollABollGame
         [SerializeField] private Button _buttonSettings;
         [SerializeField] private Button _buttonSettingsCancel;
         [SerializeField] private Button _buttonSettingsApply;
-        [SerializeField] private Button _buttonMainMenu;
+        public Button buttonMainMenu;
 
         [SerializeField] private Button _buttonEndReset;
-        [SerializeField] private Button _buttonEndMainMenu;
+        public Button buttonEndMainMenu;
 
-        [SerializeField] private Slider _sliderMusic;
-        [SerializeField] private Slider _sliderSound;
+        public Slider sliderMusic;
+        public Slider sliderSound;
         public Slider sliderSensitivity;
 
-        [SerializeField] private AudioMixer _audioMixer;
         [SerializeField] private AudioSource _soundClick;
 
-        public Text _textScore;
+        [SerializeField] private Text _textScore;
         [SerializeField] private Text _textEndScore;
 
         public delegate void PauseGame(bool value);
@@ -71,9 +66,14 @@ namespace RollABollGame
             Exist(_panelSettings);
             Exist(_panelScore);
             Exist(_panelEnd);
-            Exist(_audioMixer);
             Exist(sliderSensitivity);
+            Exist(sliderMusic);
+            Exist(sliderSound);
             Exist(_soundClick);
+            Exist(_textScore);
+            Exist(_textEndScore);
+            Exist(buttonMainMenu);
+            Exist(buttonEndMainMenu);
 
             if (Exist(_buttonInGame))
                 _buttonInGame.onClick.AddListener(OnGame);
@@ -89,16 +89,8 @@ namespace RollABollGame
                 _buttonSettingsApply.onClick.AddListener(OnSaveSettings);
             if (Exist(_buttonSettingsCancel))
                 _buttonSettingsCancel.onClick.AddListener(OnLoadSettings);
-            if (Exist(_buttonMainMenu))
-                _buttonMainMenu.onClick.AddListener(OnMainMenu);
             if (Exist(_buttonEndReset))
                 _buttonEndReset.onClick.AddListener(OnReset);
-            if (Exist(_buttonEndMainMenu))
-                _buttonEndMainMenu.onClick.AddListener(OnMainMenu);
-            if (Exist(_sliderMusic))
-                _sliderMusic.onValueChanged.AddListener(VolumeMusic);
-            if (Exist(_sliderSound))
-                _sliderSound.onValueChanged.AddListener(VolumeSound);
 
             Cursor.visible = false;
             _panelMain.SetActive(_main);
@@ -135,6 +127,10 @@ namespace RollABollGame
             if (value == null)
                 throw new DataException(nameof(value) + " not found");
             return true;
+        }
+        public void ScoreUpdate(string text)
+        {
+            _textScore.text = text;
         }
         public void OnSave()
         {
@@ -185,41 +181,18 @@ namespace RollABollGame
             loadSettingsEvent?.Invoke();
             OnMenu();
         }
-        public void OnLoadSettings(float musicValue, float soundValue, float sensValue)
-        {
-            _music = musicValue;
-            _sound = soundValue;
-            _sensitivity = sensValue;
-        }
         public void OnSettings()
         {
             _score = false;
             _menu = false;
             _main = true;
             _settings = true;
-            sliderSensitivity.value = _sensitivity;
-            _sliderMusic.value = _music;
-            _sliderSound.value = _sound;
             MenuActive();
         }
         public void OnSaveSettings()
         {
             saveSettingsEvent?.Invoke();
             OnMenu();
-        }
-        public void OnMainMenu()
-        {
-            pauseGameEvent?.Invoke(false);
-            SceneManager.LoadScene(0);
-        }
-        
-        public void VolumeMusic(float sliderValue)
-        {
-            _audioMixer.SetFloat("Music", sliderValue);
-        }
-        public void VolumeSound(float sliderValue)
-        {
-            _audioMixer.SetFloat("Sound", sliderValue);
         }
 
     }

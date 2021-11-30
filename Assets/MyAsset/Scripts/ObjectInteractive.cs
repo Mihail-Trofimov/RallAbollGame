@@ -8,15 +8,15 @@ namespace RollABollGame
         protected bool IsInteractable
         {
             get { return _isInteractable; }
-            private set
-            {
-                _isInteractable = value;
-            }
+            private set{ _isInteractable = value; }
         }
+
         public bool IsDestroyable = true;
         protected abstract void Interaction();
-        public delegate void DestroyObjectInteractive(ObjectInteractive obj);
-        public event DestroyObjectInteractive destroyObjectInteractiveEvent;
+
+        public delegate void Action(ObjectInteractive obj);
+        public event Action destroyObjectInteractiveEvent;
+
         private void OnTriggerEnter(Collider other)
         {
             if (_isInteractable && other.CompareTag("Player"))
@@ -34,6 +34,5 @@ namespace RollABollGame
             Destroy(gameObject);
             Destroy(this);
         }
-
     }
 }

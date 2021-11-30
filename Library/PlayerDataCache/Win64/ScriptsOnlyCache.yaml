@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - RollABollGame.Lift
     - RollABollGame.Luke
     - RollABollGame.MainMenu
+    - RollABollGame.MainMenuController
     - RollABollGame.Maze
     - RollABollGame.MiniMap
     - RollABollGame.PlayerBall
@@ -102,6 +103,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3792}
     - Class: 114
       Script: {instanceID: 4044}
+    - Class: 114
+      Script: {instanceID: 542186}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -151,8 +154,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
@@ -178,51 +179,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1484}
     - Class: 114
-      Script: {instanceID: 1608}
-    - Class: 114
       Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 1784}
-    - Class: 114
-      Script: {instanceID: 1946}
-    - Class: 114
       Script: {instanceID: 2008}
-    - Class: 114
-      Script: {instanceID: 2112}
     - Class: 114
       Script: {instanceID: 2132}
     - Class: 114
       Script: {instanceID: 2304}
     - Class: 114
-      Script: {instanceID: 2308}
-    - Class: 114
       Script: {instanceID: 2418}
     - Class: 114
       Script: {instanceID: 2582}
     - Class: 114
-      Script: {instanceID: 2636}
-    - Class: 114
       Script: {instanceID: 2768}
-    - Class: 114
-      Script: {instanceID: 2816}
     - Class: 114
       Script: {instanceID: 2852}
     - Class: 114
-      Script: {instanceID: 3112}
-    - Class: 114
-      Script: {instanceID: 3348}
-    - Class: 114
       Script: {instanceID: 3496}
-    - Class: 114
-      Script: {instanceID: 3546}
     - Class: 114
       Script: {instanceID: 3572}
     - Class: 114
       Script: {instanceID: 3838}
     - Class: 114
-      Script: {instanceID: 4054}
+      Script: {instanceID: 542140}
     - Class: 114
-      Script: {instanceID: 4440}
+      Script: {instanceID: 542142}
+    - Class: 114
+      Script: {instanceID: 542144}
+    - Class: 114
+      Script: {instanceID: 542146}
+    - Class: 114
+      Script: {instanceID: 542148}
+    - Class: 114
+      Script: {instanceID: 542150}
+    - Class: 114
+      Script: {instanceID: 542152}
+    - Class: 114
+      Script: {instanceID: 542154}
+    - Class: 114
+      Script: {instanceID: 542156}
+    - Class: 114
+      Script: {instanceID: 542158}
+    - Class: 114
+      Script: {instanceID: 542160}
+    - Class: 114
+      Script: {instanceID: 542190}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -298,12 +299,6 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 8b5e5350a3c18c277c223bd28d59488a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: RollABollGame
-    className: Door
-  - hash:
-      serializedVersion: 2
       Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -326,18 +321,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 237d3f92a0164aa8f9e76a8d6c096837
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: RollABollGame
-    className: Trap
-  - hash:
-      serializedVersion: 2
-      Hash: 7225493bf9398e2a99fe835221dcf79c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: RollABollGame
-    className: Roof
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -364,12 +347,6 @@ ScriptsOnlyBuild:
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
-      Hash: e4763778c0ab2e110ebb54ff0b846a8d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: RollABollGame
-    className: Luke
-  - hash:
-      serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -380,12 +357,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
-  - hash:
-      serializedVersion: 2
-      Hash: eaec3f47a97d74a79ce421f17f7e3a67
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: RollABollGame
-    className: Water
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -454,12 +425,6 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: 56bafed1f25eba2b634712d19274489a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: RollABollGame
-    className: Key
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -494,12 +459,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
-  - hash:
-      serializedVersion: 2
-      Hash: 237d3f92a0164aa8f9e76a8d6c096837
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: RollABollGame
-    className: EndGame
   - hash:
       serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
@@ -542,12 +501,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
-  - hash:
-      serializedVersion: 2
-      Hash: 237d3f92a0164aa8f9e76a8d6c096837
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: RollABollGame
-    className: Lift
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -598,12 +551,6 @@ ScriptsOnlyBuild:
     className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 7225493bf9398e2a99fe835221dcf79c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: RollABollGame
-    className: Maze
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -634,16 +581,10 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 650e88b564f79eb8e949741061fc6d17
+      Hash: 0ae96601d28a68655e09e4ba0c5fbbb4
     assemblyName: Assembly-CSharp.dll
     namespaceName: RollABollGame
     className: GameMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 7835195b2936500f96c4ece4af374d72
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: RollABollGame
-    className: Boost
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -694,7 +635,7 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: 199e3d3199f8403cdc73b87c2e9f2ff2
+      Hash: aa27f2e54d7bce40fbb2d80601393763
     assemblyName: Assembly-CSharp.dll
     namespaceName: RollABollGame
     className: MainMenu
@@ -722,12 +663,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: RollABollGame
     className: PlayerBall
-  - hash:
-      serializedVersion: 2
-      Hash: ab589ed64bfc973c1b917b48c8e8c837
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: RollABollGame
-    className: Coin
   - hash:
       serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
@@ -766,6 +701,78 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 7835195b2936500f96c4ece4af374d72
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RollABollGame
+    className: Boost
+  - hash:
+      serializedVersion: 2
+      Hash: 237d3f92a0164aa8f9e76a8d6c096837
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RollABollGame
+    className: Trap
+  - hash:
+      serializedVersion: 2
+      Hash: 7225493bf9398e2a99fe835221dcf79c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RollABollGame
+    className: Maze
+  - hash:
+      serializedVersion: 2
+      Hash: eaec3f47a97d74a79ce421f17f7e3a67
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RollABollGame
+    className: Water
+  - hash:
+      serializedVersion: 2
+      Hash: 56bafed1f25eba2b634712d19274489a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RollABollGame
+    className: Key
+  - hash:
+      serializedVersion: 2
+      Hash: ab589ed64bfc973c1b917b48c8e8c837
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RollABollGame
+    className: Coin
+  - hash:
+      serializedVersion: 2
+      Hash: 7225493bf9398e2a99fe835221dcf79c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RollABollGame
+    className: Roof
+  - hash:
+      serializedVersion: 2
+      Hash: 8b5e5350a3c18c277c223bd28d59488a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RollABollGame
+    className: Door
+  - hash:
+      serializedVersion: 2
+      Hash: e4763778c0ab2e110ebb54ff0b846a8d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RollABollGame
+    className: Luke
+  - hash:
+      serializedVersion: 2
+      Hash: 237d3f92a0164aa8f9e76a8d6c096837
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RollABollGame
+    className: Lift
+  - hash:
+      serializedVersion: 2
+      Hash: 237d3f92a0164aa8f9e76a8d6c096837
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RollABollGame
+    className: EndGame
+  - hash:
+      serializedVersion: 2
+      Hash: 6dad7a5de8a9ddc7da5724803b9a95df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RollABollGame
+    className: MainMenuController
+  - hash:
+      serializedVersion: 2
       Hash: af63b55330802a4652b3a31962d33535
     assemblyName: Assembly-CSharp.dll
     namespaceName: RollABollGame
@@ -775,4 +782,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/SampleScene.unity
   playerPath: "G:/uniti/\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430
-    (2)/RollABallGameFinal.exe"
+    (3)/RollABallGameFinal.exe"

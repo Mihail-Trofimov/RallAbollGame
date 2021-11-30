@@ -1,13 +1,18 @@
 <?xml version="1.0"?>
 <SavedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PlayerPosition>
-    <X>2</X>
-    <Y>1.49992228</Y>
-    <Z>-20.6189442</Z>
+    <X>20.3501587</X>
+    <Y>1.5</Y>
+    <Z>26.82832</Z>
   </PlayerPosition>
-  <PlayerScore>7</PlayerScore>
+  <PlayerScore>109</PlayerScore>
   <PlayerScoreMax>549</PlayerScoreMax>
-  <KeysList />
+  <KeysList>
+    <int>0</int>
+    <int>1</int>
+    <int>2</int>
+    <int>4</int>
+  </KeysList>
   <CoinList>
     <CoinSerializable>
       <CoinPosition>
@@ -43,33 +48,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>21</X>
-        <Y>0.5</Y>
-        <Z>27</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>41</X>
-        <Y>0.5</Y>
-        <Z>27</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
         <X>-33</X>
         <Y>0.5</Y>
         <Z>-14</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-45</X>
-        <Y>0.5</Y>
-        <Z>-1</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -91,6 +72,22 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
+        <X>-33</X>
+        <Y>0.5</Y>
+        <Z>-23</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-21</X>
+        <Y>0.5</Y>
+        <Z>-21</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
         <X>-45</X>
         <Y>7.6</Y>
         <Z>27</Z>
@@ -99,9 +96,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-3</X>
+        <X>39</X>
         <Y>0.5</Y>
-        <Z>-17</Z>
+        <Z>-27</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -115,9 +112,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-33</X>
+        <X>19</X>
         <Y>0.5</Y>
-        <Z>-23</Z>
+        <Z>-39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -131,9 +128,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-25</X>
+        <X>-33</X>
         <Y>0.5</Y>
-        <Z>-45</Z>
+        <Z>6</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -171,9 +168,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-21</X>
+        <X>21.88</X>
         <Y>0.5</Y>
-        <Z>-21</Z>
+        <Z>-3</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -187,33 +184,33 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
+        <X>33</X>
+        <Y>0.5</Y>
+        <Z>15</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
         <X>39</X>
         <Y>0.5</Y>
-        <Z>-27</Z>
+        <Z>9</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>19</X>
+        <X>13</X>
         <Y>0.5</Y>
-        <Z>-39</Z>
+        <Z>-21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-33</X>
+        <X>3</X>
         <Y>0.5</Y>
-        <Z>6</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>21.88</X>
-        <Y>0.5</Y>
-        <Z>-3</Z>
+        <Z>39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -227,9 +224,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>37</X>
+        <X>9</X>
         <Y>0.5</Y>
-        <Z>27</Z>
+        <Z>13</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -275,17 +272,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>33</X>
+        <X>-15</X>
         <Y>0.5</Y>
-        <Z>15</Z>
+        <Z>-21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>39</X>
+        <X>-39</X>
         <Y>0.5</Y>
-        <Z>9</Z>
+        <Z>-39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -299,25 +296,25 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>45</X>
+        <X>27</X>
         <Y>0.5</Y>
-        <Z>-33</Z>
+        <Z>-11</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>13</X>
+        <X>-9</X>
         <Y>0.5</Y>
-        <Z>-21</Z>
+        <Z>-19</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>3</X>
+        <X>-13</X>
         <Y>0.5</Y>
-        <Z>39</Z>
+        <Z>15</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -339,9 +336,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>9</X>
+        <X>33</X>
         <Y>0.5</Y>
-        <Z>13</Z>
+        <Z>45</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -363,9 +360,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-15</X>
+        <X>39</X>
         <Y>0.5</Y>
-        <Z>-21</Z>
+        <Z>-31</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -379,17 +376,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>45</X>
+        <X>9</X>
         <Y>0.5</Y>
-        <Z>23</Z>
+        <Z>-17</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-39</X>
+        <X>-27</X>
         <Y>0.5</Y>
-        <Z>-39</Z>
+        <Z>-21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -419,25 +416,25 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>27</X>
+        <X>13</X>
         <Y>0.5</Y>
-        <Z>-11</Z>
+        <Z>-27</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-9</X>
+        <X>29</X>
         <Y>0.5</Y>
-        <Z>-19</Z>
+        <Z>-33</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-13</X>
+        <X>21</X>
         <Y>0.5</Y>
-        <Z>15</Z>
+        <Z>-33</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -491,9 +488,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>33</X>
+        <X>27</X>
         <Y>0.5</Y>
-        <Z>45</Z>
+        <Z>33</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -515,9 +512,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-3</X>
+        <X>-33</X>
         <Y>0.5</Y>
-        <Z>-37</Z>
+        <Z>21</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-9</X>
+        <Y>0.5</Y>
+        <Z>3</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -525,15 +530,7 @@
       <CoinPosition>
         <X>39</X>
         <Y>0.5</Y>
-        <Z>-31</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>45</X>
-        <Y>0.5</Y>
-        <Z>11</Z>
+        <Z>17</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -555,33 +552,33 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>9</X>
+        <X>-33</X>
         <Y>0.5</Y>
-        <Z>-17</Z>
+        <Z>16</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-15</X>
+        <X>-39</X>
         <Y>0.5</Y>
-        <Z>-5</Z>
+        <Z>15</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-45</X>
+        <X>-35</X>
         <Y>0.5</Y>
-        <Z>27</Z>
+        <Z>45</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-27</X>
+        <X>-21</X>
         <Y>0.5</Y>
-        <Z>-21</Z>
+        <Z>-3</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -595,9 +592,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>13</X>
+        <X>-7</X>
         <Y>0.5</Y>
-        <Z>-27</Z>
+        <Z>39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -611,17 +608,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>29</X>
+        <X>-23</X>
         <Y>0.5</Y>
-        <Z>-33</Z>
+        <Z>21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-45</X>
+        <X>9</X>
         <Y>0.5</Y>
-        <Z>-40</Z>
+        <Z>1</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -653,15 +650,15 @@
       <CoinPosition>
         <X>21</X>
         <Y>0.5</Y>
-        <Z>-33</Z>
+        <Z>-9</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>27</X>
+        <X>9</X>
         <Y>0.5</Y>
-        <Z>33</Z>
+        <Z>-9</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -699,9 +696,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-33</X>
+        <X>-21</X>
         <Y>0.5</Y>
-        <Z>21</Z>
+        <Z>9</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -723,9 +720,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-40</X>
+        <X>9</X>
         <Y>0.5</Y>
-        <Z>-45</Z>
+        <Z>-13</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -755,25 +752,25 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-9</X>
-        <Y>0.5</Y>
-        <Z>3</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
         <X>39</X>
         <Y>0.5</Y>
-        <Z>17</Z>
+        <Z>13</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-33</X>
+        <X>33</X>
         <Y>0.5</Y>
-        <Z>16</Z>
+        <Z>-1</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>21</X>
+        <Y>0.5</Y>
+        <Z>8.24</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -787,9 +784,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-45</X>
+        <X>-7</X>
         <Y>0.5</Y>
-        <Z>11</Z>
+        <Z>21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -811,33 +808,33 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-39</X>
+        <X>39</X>
         <Y>0.5</Y>
-        <Z>15</Z>
+        <Z>-7</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-35</X>
+        <X>33</X>
         <Y>0.5</Y>
-        <Z>45</Z>
+        <Z>3</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-21</X>
+        <X>-27</X>
         <Y>0.5</Y>
-        <Z>-3</Z>
+        <Z>-15</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-7</X>
+        <X>21</X>
         <Y>0.5</Y>
-        <Z>39</Z>
+        <Z>3</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -859,9 +856,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-23</X>
+        <X>9</X>
         <Y>0.5</Y>
-        <Z>21</Z>
+        <Z>5</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -899,9 +896,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>9</X>
+        <X>-9</X>
         <Y>0.5</Y>
-        <Z>1</Z>
+        <Z>15</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -915,17 +912,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-3</X>
+        <X>-33</X>
         <Y>0.5</Y>
-        <Z>-41</Z>
+        <Z>-9</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>21</X>
+        <X>39</X>
         <Y>0.5</Y>
-        <Z>-9</Z>
+        <Z>45</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -979,7 +976,7 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>9</X>
+        <X>-39</X>
         <Y>0.5</Y>
         <Z>-9</Z>
       </CoinPosition>
@@ -995,15 +992,23 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-39</X>
+        <X>9</X>
         <Y>0.5</Y>
-        <Z>33</Z>
+        <Z>-3</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-21</X>
+        <X>-33</X>
+        <Y>0.5</Y>
+        <Z>-28</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>35</X>
         <Y>0.5</Y>
         <Z>9</Z>
       </CoinPosition>
@@ -1011,33 +1016,41 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>9</X>
+        <X>-33</X>
         <Y>0.5</Y>
-        <Z>-13</Z>
+        <Z>1</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>37</X>
+        <X>-39</X>
         <Y>0.5</Y>
-        <Z>-45</Z>
+        <Z>21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>3</X>
+        <X>16</X>
         <Y>0.5</Y>
-        <Z>15</Z>
+        <Z>39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>39</X>
+        <X>-9</X>
         <Y>0.5</Y>
-        <Z>13</Z>
+        <Z>-27</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-27</X>
+        <Y>0.5</Y>
+        <Z>-3</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1051,9 +1064,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>33</X>
+        <X>39</X>
         <Y>0.5</Y>
-        <Z>-1</Z>
+        <Z>-23</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1067,9 +1080,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>21</X>
+        <X>39</X>
         <Y>0.5</Y>
-        <Z>8.24</Z>
+        <Z>21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1115,9 +1128,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>33</X>
+        <X>21</X>
         <Y>0.5</Y>
-        <Z>-45</Z>
+        <Z>-27</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1147,9 +1160,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-7</X>
+        <X>-34</X>
         <Y>0.5</Y>
-        <Z>21</Z>
+        <Z>-39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1163,17 +1176,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>39</X>
+        <X>-11</X>
         <Y>0.5</Y>
-        <Z>-7</Z>
+        <Z>21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>3</X>
+        <X>39</X>
         <Y>0.5</Y>
-        <Z>3</Z>
+        <Z>-15</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1181,7 +1194,7 @@
       <CoinPosition>
         <X>33</X>
         <Y>0.5</Y>
-        <Z>3</Z>
+        <Z>-17</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1195,17 +1208,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-27</X>
+        <X>-15</X>
         <Y>0.5</Y>
-        <Z>-15</Z>
+        <Z>-33</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-45</X>
+        <X>39</X>
         <Y>0.5</Y>
-        <Z>7</Z>
+        <Z>1</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1219,9 +1232,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>21</X>
+        <X>33</X>
         <Y>0.5</Y>
-        <Z>3</Z>
+        <Z>-21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1243,9 +1256,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>9</X>
+        <X>-9</X>
         <Y>0.5</Y>
-        <Z>5</Z>
+        <Z>-31</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1253,31 +1266,31 @@
       <CoinPosition>
         <X>-9</X>
         <Y>0.5</Y>
-        <Z>15</Z>
+        <Z>-15</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-33</X>
+        <X>25.68</X>
         <Y>0.5</Y>
-        <Z>-9</Z>
+        <Z>21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>39</X>
+        <X>-27</X>
         <Y>0.5</Y>
-        <Z>45</Z>
+        <Z>-27</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-23</X>
+        <X>-15</X>
         <Y>0.5</Y>
-        <Z>33</Z>
+        <Z>-1</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1315,9 +1328,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-39</X>
+        <X>-9</X>
         <Y>0.5</Y>
-        <Z>-9</Z>
+        <Z>-23</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1339,17 +1352,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>9</X>
+        <X>39</X>
         <Y>0.5</Y>
-        <Z>-3</Z>
+        <Z>-35</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-33</X>
+        <X>27</X>
         <Y>0.5</Y>
-        <Z>-28</Z>
+        <Z>-3</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1379,9 +1392,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>35</X>
+        <X>17</X>
         <Y>0.5</Y>
-        <Z>9</Z>
+        <Z>-33</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1395,17 +1408,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-33</X>
+        <X>21</X>
         <Y>0.5</Y>
-        <Z>1</Z>
+        <Z>-21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-3</X>
+        <X>17</X>
         <Y>0.5</Y>
-        <Z>3</Z>
+        <Z>-27</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1427,9 +1440,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-39</X>
+        <X>33</X>
         <Y>0.5</Y>
-        <Z>21</Z>
+        <Z>-9</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>33</X>
+        <Y>0.5</Y>
+        <Z>-13</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1443,7 +1464,7 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>16</X>
+        <X>-1</X>
         <Y>0.5</Y>
         <Z>39</Z>
       </CoinPosition>
@@ -1491,33 +1512,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-9</X>
+        <X>15</X>
         <Y>0.5</Y>
-        <Z>-27</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-3</X>
-        <Y>7.6</Y>
-        <Z>27</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-45</X>
-        <Y>-6.5</Y>
-        <Z>-15</Z>
-      </CoinPosition>
-      <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-27</X>
-        <Y>0.5</Y>
-        <Z>-3</Z>
+        <Z>-39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1531,6 +1528,30 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
+        <X>-45</X>
+        <Y>-6.5</Y>
+        <Z>-15</Z>
+      </CoinPosition>
+      <CoinFloor>0</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-21</X>
+        <Y>0.5</Y>
+        <Z>39</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>20</X>
+        <Y>7.6</Y>
+        <Z>27</Z>
+      </CoinPosition>
+      <CoinFloor>2</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
         <X>-3</X>
         <Y>-6.5</Y>
         <Z>-33</Z>
@@ -1539,9 +1560,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-45</X>
+        <X>39</X>
         <Y>0.5</Y>
-        <Z>-29</Z>
+        <Z>-3</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1555,25 +1576,25 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>20</X>
+        <X>-45</X>
         <Y>7.6</Y>
-        <Z>27</Z>
+        <Z>39</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>45</X>
+        <X>23</X>
         <Y>0.5</Y>
-        <Z>-21</Z>
+        <Z>-15</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>39</X>
+        <X>-27</X>
         <Y>0.5</Y>
-        <Z>-23</Z>
+        <Z>5</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1613,13 +1634,13 @@
       <CoinPosition>
         <X>39</X>
         <Y>0.5</Y>
-        <Z>21</Z>
+        <Z>-11</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-45</X>
+        <X>31</X>
         <Y>7.6</Y>
         <Z>39</Z>
       </CoinPosition>
@@ -1627,9 +1648,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>21</X>
+        <X>-39</X>
         <Y>0.5</Y>
-        <Z>-27</Z>
+        <Z>-13</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1651,17 +1672,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>3</X>
+        <X>-27</X>
         <Y>0.5</Y>
-        <Z>-17</Z>
+        <Z>13</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-34</X>
+        <X>33.68</X>
         <Y>0.5</Y>
-        <Z>-39</Z>
+        <Z>21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1675,15 +1696,15 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-11</X>
+        <X>-27</X>
         <Y>0.5</Y>
-        <Z>21</Z>
+        <Z>17</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>31</X>
+        <X>41</X>
         <Y>7.6</Y>
         <Z>39</Z>
       </CoinPosition>
@@ -1699,9 +1720,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>39</X>
+        <X>-15</X>
         <Y>0.5</Y>
-        <Z>-15</Z>
+        <Z>9</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1709,15 +1730,23 @@
       <CoinPosition>
         <X>33</X>
         <Y>0.5</Y>
-        <Z>-17</Z>
+        <Z>-5</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>41</X>
+        <X>39</X>
+        <Y>0.5</Y>
+        <Z>-39</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-15</X>
         <Y>7.6</Y>
-        <Z>39</Z>
+        <Z>33</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
     </CoinSerializable>
@@ -1739,41 +1768,49 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-7</X>
-        <Y>0.5</Y>
-        <Z>33</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
         <X>-15</X>
         <Y>0.5</Y>
-        <Z>-33</Z>
+        <Z>21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>39</X>
+        <X>11</X>
         <Y>0.5</Y>
-        <Z>1</Z>
+        <Z>39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>33</X>
+        <X>-33</X>
         <Y>0.5</Y>
-        <Z>-21</Z>
+        <Z>11</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-9</X>
+        <X>27</X>
         <Y>0.5</Y>
-        <Z>-31</Z>
+        <Z>9</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>0</X>
+        <Y>0.5</Y>
+        <Z>45</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>45</X>
+        <Y>0.5</Y>
+        <Z>-1</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1787,7 +1824,7 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-9</X>
+        <X>27</X>
         <Y>0.5</Y>
         <Z>-15</Z>
       </CoinPosition>
@@ -1803,17 +1840,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>25.68</X>
+        <X>-29</X>
         <Y>0.5</Y>
-        <Z>21</Z>
+        <Z>-39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-27</X>
+        <X>33</X>
         <Y>0.5</Y>
-        <Z>-27</Z>
+        <Z>-33</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1827,33 +1864,33 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-15</X>
+        <X>-14</X>
         <Y>0.5</Y>
-        <Z>-1</Z>
+        <Z>-39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-9</X>
+        <X>-24</X>
         <Y>0.5</Y>
-        <Z>-23</Z>
+        <Z>-39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>39</X>
+        <X>9</X>
         <Y>0.5</Y>
-        <Z>-35</Z>
+        <Z>-21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>45</X>
+        <X>13</X>
         <Y>0.5</Y>
-        <Z>-29</Z>
+        <Z>-33</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1877,15 +1914,15 @@
       <CoinPosition>
         <X>25</X>
         <Y>0.5</Y>
-        <Z>-45</Z>
+        <Z>3</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>27</X>
+        <X>-26</X>
         <Y>0.5</Y>
-        <Z>-3</Z>
+        <Z>45</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1923,15 +1960,15 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>9</X>
+        <X>-15</X>
         <Y>0.5</Y>
-        <Z>-45</Z>
+        <Z>-27</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-15</X>
+        <X>3</X>
         <Y>7.6</Y>
         <Z>33</Z>
       </CoinPosition>
@@ -1939,9 +1976,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-3</X>
+        <X>-39</X>
         <Y>0.5</Y>
-        <Z>11</Z>
+        <Z>3</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1963,9 +2000,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>17</X>
+        <X>29.68</X>
         <Y>0.5</Y>
-        <Z>-33</Z>
+        <Z>21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -1979,17 +2016,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>3</X>
+        <X>5</X>
         <Y>7.6</Y>
-        <Z>33</Z>
+        <Z>45</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-3</X>
+        <X>-27</X>
         <Y>0.5</Y>
-        <Z>-25</Z>
+        <Z>-7</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2003,23 +2040,23 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>21</X>
+        <X>-31</X>
         <Y>0.5</Y>
-        <Z>-21</Z>
+        <Z>45</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-27</X>
+        <X>-33</X>
         <Y>0.5</Y>
-        <Z>33</Z>
+        <Z>-33</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>5</X>
+        <X>46</X>
         <Y>7.6</Y>
         <Z>45</Z>
       </CoinPosition>
@@ -2027,17 +2064,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-45</X>
+        <X>23</X>
         <Y>0.5</Y>
-        <Z>-5</Z>
+        <Z>-39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>17</X>
+        <X>-21</X>
         <Y>0.5</Y>
-        <Z>-27</Z>
+        <Z>45</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2051,7 +2088,7 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>46</X>
+        <X>41</X>
         <Y>7.6</Y>
         <Z>45</Z>
       </CoinPosition>
@@ -2083,89 +2120,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>33</X>
+        <X>45</X>
         <Y>0.5</Y>
-        <Z>-9</Z>
+        <Z>-5</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>33</X>
+        <X>-27</X>
         <Y>0.5</Y>
-        <Z>-13</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>41</X>
-        <Y>7.6</Y>
-        <Z>45</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-1</X>
-        <Y>0.5</Y>
-        <Z>39</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>15</X>
-        <Y>0.5</Y>
-        <Z>-39</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>10</X>
-        <Y>-6.5</Y>
-        <Z>45</Z>
-      </CoinPosition>
-      <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-21</X>
-        <Y>0.5</Y>
-        <Z>39</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-3</X>
-        <Y>7.6</Y>
-        <Z>-9</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>39</X>
-        <Y>0.5</Y>
-        <Z>-3</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>9</X>
-        <Y>-6.5</Y>
-        <Z>-3</Z>
-      </CoinPosition>
-      <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>23</X>
-        <Y>0.5</Y>
-        <Z>-15</Z>
+        <Z>-11</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2179,17 +2144,89 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>45</X>
+        <X>-39</X>
         <Y>0.5</Y>
-        <Z>19</Z>
+        <Z>27</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-3</X>
+        <X>33</X>
+        <Y>0.5</Y>
+        <Z>-25</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>10</X>
+        <Y>-6.5</Y>
+        <Z>45</Z>
+      </CoinPosition>
+      <CoinFloor>0</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>9</X>
+        <Y>0.5</Y>
+        <Z>-37</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-27</X>
         <Y>7.6</Y>
-        <Z>15</Z>
+        <Z>27</Z>
+      </CoinPosition>
+      <CoinFloor>2</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-33</X>
+        <Y>0.5</Y>
+        <Z>-4</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>9</X>
+        <Y>-6.5</Y>
+        <Z>-3</Z>
+      </CoinPosition>
+      <CoinFloor>0</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>17.88</X>
+        <Y>0.5</Y>
+        <Z>-3</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-21</X>
+        <Y>7.6</Y>
+        <Z>33</Z>
+      </CoinPosition>
+      <CoinFloor>2</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-33</X>
+        <Y>0.5</Y>
+        <Z>27</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>5</X>
+        <Y>7.6</Y>
+        <Z>39</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
     </CoinSerializable>
@@ -2211,9 +2248,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-27</X>
+        <X>-39</X>
         <Y>0.5</Y>
-        <Z>5</Z>
+        <Z>-29</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2227,17 +2264,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>45</X>
+        <X>39</X>
         <Y>0.5</Y>
-        <Z>-17</Z>
+        <Z>-19</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-45</X>
+        <X>-27</X>
         <Y>0.5</Y>
-        <Z>33</Z>
+        <Z>-33</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2251,39 +2288,39 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>39</X>
+        <X>-15</X>
         <Y>0.5</Y>
-        <Z>-11</Z>
+        <Z>3</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-39</X>
+        <X>9</X>
         <Y>0.5</Y>
-        <Z>-13</Z>
+        <Z>-33</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-39</X>
+        <X>-17</X>
         <Y>0.5</Y>
-        <Z>39</Z>
+        <Z>15</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-27</X>
+        <X>-21</X>
         <Y>0.5</Y>
-        <Z>13</Z>
+        <Z>3</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-27</X>
+        <X>-9</X>
         <Y>7.6</Y>
         <Z>27</Z>
       </CoinPosition>
@@ -2315,23 +2352,23 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>3</X>
+        <X>25</X>
         <Y>0.5</Y>
-        <Z>11</Z>
+        <Z>-27</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>45</X>
+        <X>9</X>
         <Y>0.5</Y>
-        <Z>-37</Z>
+        <Z>21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-21</X>
+        <X>31</X>
         <Y>7.6</Y>
         <Z>33</Z>
       </CoinPosition>
@@ -2339,17 +2376,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>5</X>
+        <X>3</X>
         <Y>7.6</Y>
-        <Z>39</Z>
+        <Z>27</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>33.68</X>
+        <X>-39</X>
         <Y>0.5</Y>
-        <Z>21</Z>
+        <Z>-17</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2363,7 +2400,7 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-9</X>
+        <X>15</X>
         <Y>7.6</Y>
         <Z>27</Z>
       </CoinPosition>
@@ -2387,9 +2424,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>29</X>
+        <X>-9</X>
         <Y>0.5</Y>
-        <Z>-45</Z>
+        <Z>-39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2403,33 +2440,33 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-45</X>
+        <X>25</X>
         <Y>0.5</Y>
-        <Z>3</Z>
+        <Z>-33</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-27</X>
+        <X>21</X>
         <Y>0.5</Y>
-        <Z>17</Z>
+        <Z>12.24</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-15</X>
+        <X>13</X>
+        <Y>0.5</Y>
+        <Z>-9</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>9</X>
         <Y>0.5</Y>
         <Z>9</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>33</X>
-        <Y>0.5</Y>
-        <Z>-5</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2459,17 +2496,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-15</X>
+        <X>27</X>
         <Y>0.5</Y>
-        <Z>33</Z>
+        <Z>-39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>31</X>
+        <X>-5</X>
         <Y>7.6</Y>
-        <Z>33</Z>
+        <Z>39</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
     </CoinSerializable>
@@ -2483,17 +2520,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-15</X>
+        <X>17</X>
         <Y>0.5</Y>
-        <Z>-45</Z>
+        <Z>-9</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>39</X>
+        <X>-20.5</X>
         <Y>0.5</Y>
-        <Z>-39</Z>
+        <Z>-15</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2507,15 +2544,7 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-35</X>
-        <Y>0.5</Y>
-        <Z>-45</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-15</X>
+        <X>21</X>
         <Y>0.5</Y>
         <Z>21</Z>
       </CoinPosition>
@@ -2523,15 +2552,23 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>33</X>
+        <X>-27</X>
         <Y>0.5</Y>
-        <Z>33</Z>
+        <Z>9</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-45</X>
+        <X>21</X>
+        <Y>0.5</Y>
+        <Z>39</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-21</X>
         <Y>0.5</Y>
         <Z>-9</Z>
       </CoinPosition>
@@ -2547,9 +2584,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>11</X>
+        <X>21</X>
         <Y>0.5</Y>
-        <Z>39</Z>
+        <Z>16.24</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2563,17 +2600,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-33</X>
+        <X>29</X>
         <Y>0.5</Y>
-        <Z>11</Z>
+        <Z>-21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>3</X>
+        <X>9</X>
         <Y>7.6</Y>
-        <Z>27</Z>
+        <Z>33</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
     </CoinSerializable>
@@ -2587,17 +2624,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>27</X>
+        <X>19</X>
         <Y>0.5</Y>
-        <Z>9</Z>
+        <Z>-15</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>15</X>
+        <X>-30</X>
         <Y>7.6</Y>
-        <Z>27</Z>
+        <Z>45</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
     </CoinSerializable>
@@ -2611,105 +2648,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>0</X>
+        <X>-21</X>
         <Y>0.5</Y>
-        <Z>45</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>45</X>
-        <Y>0.5</Y>
-        <Z>-1</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-5</X>
-        <Y>7.6</Y>
-        <Z>39</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>9</X>
-        <Y>-6.5</Y>
-        <Z>-33</Z>
-      </CoinPosition>
-      <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>3</X>
-        <Y>-6.5</Y>
-        <Z>-21</Z>
-      </CoinPosition>
-      <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>9</X>
-        <Y>7.6</Y>
-        <Z>33</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-30</X>
-        <Y>7.6</Y>
-        <Z>45</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>21</X>
-        <Y>-6.5</Y>
         <Z>15</Z>
       </CoinPosition>
-      <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>45</X>
-        <Y>0.5</Y>
-        <Z>-45</Z>
-      </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-25</X>
-        <Y>-6.5</Y>
-        <Z>45</Z>
-      </CoinPosition>
-      <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>41</X>
+        <X>25</X>
         <Y>0.5</Y>
-        <Z>-45</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-3</X>
-        <Y>0.5</Y>
-        <Z>-13</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>27</X>
-        <Y>0.5</Y>
-        <Z>-15</Z>
+        <Z>-21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2723,6 +2672,94 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
+        <X>9</X>
+        <Y>-6.5</Y>
+        <Z>-33</Z>
+      </CoinPosition>
+      <CoinFloor>0</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>3</X>
+        <Y>-6.5</Y>
+        <Z>-21</Z>
+      </CoinPosition>
+      <CoinFloor>0</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>0</X>
+        <Y>7.6</Y>
+        <Z>39</Z>
+      </CoinPosition>
+      <CoinFloor>2</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-33</X>
+        <Y>7.6</Y>
+        <Z>27</Z>
+      </CoinPosition>
+      <CoinFloor>2</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>21</X>
+        <Y>-6.5</Y>
+        <Z>15</Z>
+      </CoinPosition>
+      <CoinFloor>0</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>33</X>
+        <Y>0.5</Y>
+        <Z>-29</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-25</X>
+        <Y>-6.5</Y>
+        <Z>45</Z>
+      </CoinPosition>
+      <CoinFloor>0</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-11</X>
+        <Y>0.5</Y>
+        <Z>39</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-39</X>
+        <Y>0.5</Y>
+        <Z>11</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-19</X>
+        <Y>0.5</Y>
+        <Z>21</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-40</X>
+        <Y>7.6</Y>
+        <Z>45</Z>
+      </CoinPosition>
+      <CoinFloor>2</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
         <X>33</X>
         <Y>-6.5</Y>
         <Z>9</Z>
@@ -2731,9 +2768,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-45</X>
+        <X>17</X>
         <Y>0.5</Y>
-        <Z>-33</Z>
+        <Z>-21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2747,17 +2784,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-29</X>
+        <X>-15</X>
         <Y>0.5</Y>
-        <Z>-39</Z>
+        <Z>39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-45</X>
+        <X>27</X>
         <Y>0.5</Y>
-        <Z>-25</Z>
+        <Z>-7</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2771,9 +2808,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>33</X>
+        <X>-27</X>
         <Y>0.5</Y>
-        <Z>-33</Z>
+        <Z>21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2787,17 +2824,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-14</X>
+        <X>9</X>
         <Y>0.5</Y>
-        <Z>-39</Z>
+        <Z>-27</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-24</X>
+        <X>-3</X>
         <Y>0.5</Y>
-        <Z>-39</Z>
+        <Z>21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2811,9 +2848,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>9</X>
+        <X>35</X>
         <Y>0.5</Y>
-        <Z>-21</Z>
+        <Z>-39</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2827,17 +2864,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>13</X>
+        <X>13.8799992</X>
         <Y>0.5</Y>
-        <Z>-33</Z>
+        <Z>-3</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>45</X>
+        <X>-39</X>
         <Y>0.5</Y>
-        <Z>-13</Z>
+        <Z>-25</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2851,9 +2888,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>25</X>
+        <X>-39</X>
         <Y>0.5</Y>
-        <Z>3</Z>
+        <Z>-1</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2867,17 +2904,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-26</X>
+        <X>5</X>
         <Y>0.5</Y>
-        <Z>45</Z>
+        <Z>21</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-15</X>
+        <X>-9</X>
         <Y>0.5</Y>
-        <Z>-27</Z>
+        <Z>11</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2899,9 +2936,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-39</X>
+        <X>-27</X>
         <Y>0.5</Y>
-        <Z>3</Z>
+        <Z>1</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -2915,23 +2952,15 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>29.68</X>
+        <X>-9</X>
         <Y>0.5</Y>
-        <Z>21</Z>
+        <Z>7</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-27</X>
-        <Y>0.5</Y>
-        <Z>-7</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-31</X>
+        <X>-39</X>
         <Y>0.5</Y>
         <Z>45</Z>
       </CoinPosition>
@@ -2939,7 +2968,31 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-33</X>
+        <X>39</X>
+        <Y>0.5</Y>
+        <Z>5</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-14.5</X>
+        <Y>0.5</Y>
+        <Z>-15</Z>
+      </CoinPosition>
+      <CoinFloor>1</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>36</X>
+        <Y>7.6</Y>
+        <Z>45</Z>
+      </CoinPosition>
+      <CoinFloor>2</CoinFloor>
+    </CoinSerializable>
+    <CoinSerializable>
+      <CoinPosition>
+        <X>-21</X>
         <Y>0.5</Y>
         <Z>-33</Z>
       </CoinPosition>
@@ -2947,33 +3000,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>0</X>
-        <Y>7.6</Y>
-        <Z>39</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>23</X>
+        <X>31</X>
         <Y>0.5</Y>
         <Z>-39</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-21</X>
-        <Y>0.5</Y>
-        <Z>45</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>29</X>
-        <Y>0.5</Y>
-        <Z>27</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
@@ -3003,7 +3032,7 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-33</X>
+        <X>45</X>
         <Y>7.6</Y>
         <Z>27</Z>
       </CoinPosition>
@@ -3011,33 +3040,33 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-40</X>
+        <X>-15</X>
         <Y>7.6</Y>
-        <Z>45</Z>
+        <Z>27</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>3</X>
+        <X>-9</X>
         <Y>0.5</Y>
-        <Z>-9</Z>
+        <Z>-35</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>45</X>
+        <X>9</X>
         <Y>0.5</Y>
-        <Z>-5</Z>
+        <Z>17</Z>
       </CoinPosition>
       <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>36</X>
+        <X>-39</X>
         <Y>7.6</Y>
-        <Z>45</Z>
+        <Z>27</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
     </CoinSerializable>
@@ -3051,43 +3080,19 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>45</X>
+        <X>39</X>
         <Y>7.6</Y>
-        <Z>27</Z>
+        <Z>33</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-3</X>
+        <X>-5</X>
         <Y>7.6</Y>
-        <Z>19</Z>
+        <Z>45</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-27</X>
-        <Y>0.5</Y>
-        <Z>-11</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-45</X>
-        <Y>0.5</Y>
-        <Z>-21</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-45</X>
-        <Y>0.5</Y>
-        <Z>19</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
@@ -3107,43 +3112,11 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-45</X>
-        <Y>0.5</Y>
-        <Z>15</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-39</X>
-        <Y>0.5</Y>
-        <Z>27</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>3</X>
-        <Y>0.5</Y>
-        <Z>-5</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
         <X>-35</X>
         <Y>-6.5</Y>
         <Z>45</Z>
       </CoinPosition>
       <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>33</X>
-        <Y>0.5</Y>
-        <Z>-25</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
@@ -3155,30 +3128,6 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-3</X>
-        <Y>0.5</Y>
-        <Z>15</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>9</X>
-        <Y>0.5</Y>
-        <Z>-37</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-33</X>
-        <Y>0.5</Y>
-        <Z>-4</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
         <X>-35</X>
         <Y>-6.5</Y>
         <Z>27</Z>
@@ -3187,43 +3136,11 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>17.88</X>
-        <Y>0.5</Y>
-        <Z>-3</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-7</X>
-        <Y>0.5</Y>
-        <Z>-9</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-33</X>
-        <Y>0.5</Y>
-        <Z>27</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-3</X>
+        <X>-10</X>
         <Y>7.6</Y>
-        <Z>23</Z>
+        <Z>39</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-39</X>
-        <Y>0.5</Y>
-        <Z>-29</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
@@ -3235,27 +3152,11 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>39</X>
-        <Y>0.5</Y>
-        <Z>-19</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-15</X>
+        <X>-40</X>
         <Y>7.6</Y>
-        <Z>27</Z>
+        <Z>39</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-27</X>
-        <Y>0.5</Y>
-        <Z>-33</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
@@ -3283,35 +3184,11 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-15</X>
-        <Y>0.5</Y>
-        <Z>3</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-39</X>
+        <X>15</X>
         <Y>7.6</Y>
-        <Z>27</Z>
+        <Z>33</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>9</X>
-        <Y>0.5</Y>
-        <Z>-33</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-17</X>
-        <Y>0.5</Y>
-        <Z>15</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
@@ -3323,49 +3200,17 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-21</X>
-        <Y>0.5</Y>
-        <Z>3</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-27</X>
-        <Y>0.5</Y>
-        <Z>39</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>25</X>
-        <Y>0.5</Y>
-        <Z>-27</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-3</X>
+        <X>-9</X>
         <Y>7.6</Y>
-        <Z>3</Z>
+        <Z>33</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>9</X>
-        <Y>0.5</Y>
-        <Z>21</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-3</X>
+        <X>46</X>
         <Y>7.6</Y>
-        <Z>-1</Z>
+        <Z>39</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
     </CoinSerializable>
@@ -3387,14 +3232,6 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-39</X>
-        <Y>0.5</Y>
-        <Z>-17</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
         <X>-9</X>
         <Y>-6.5</Y>
         <Z>-39</Z>
@@ -3403,15 +3240,7 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>39</X>
-        <Y>7.6</Y>
-        <Z>33</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-5</X>
+        <X>15</X>
         <Y>7.6</Y>
         <Z>45</Z>
       </CoinPosition>
@@ -3419,19 +3248,11 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-9</X>
-        <Y>0.5</Y>
-        <Z>-39</Z>
+        <X>-25</X>
+        <Y>7.6</Y>
+        <Z>39</Z>
       </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>25</X>
-        <Y>0.5</Y>
-        <Z>-33</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
+      <CoinFloor>2</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
@@ -3440,22 +3261,6 @@
         <Z>-45</Z>
       </CoinPosition>
       <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>45</X>
-        <Y>0.5</Y>
-        <Z>27</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-3</X>
-        <Y>0.5</Y>
-        <Z>-45</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
@@ -3467,25 +3272,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>21</X>
-        <Y>0.5</Y>
-        <Z>12.24</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>13</X>
-        <Y>0.5</Y>
-        <Z>-9</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-15</X>
+        <X>-10</X>
         <Y>7.6</Y>
-        <Z>-3</Z>
+        <Z>45</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
     </CoinSerializable>
@@ -3499,131 +3288,11 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>9</X>
-        <Y>0.5</Y>
-        <Z>9</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>13</X>
-        <Y>0.5</Y>
-        <Z>-45</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
         <X>-27</X>
         <Y>-6.5</Y>
         <Z>-9</Z>
       </CoinPosition>
       <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>27</X>
-        <Y>0.5</Y>
-        <Z>-39</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>17</X>
-        <Y>0.5</Y>
-        <Z>-45</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>17</X>
-        <Y>0.5</Y>
-        <Z>-9</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-20.5</X>
-        <Y>0.5</Y>
-        <Z>-15</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>45</X>
-        <Y>0.5</Y>
-        <Z>15</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-20</X>
-        <Y>0.5</Y>
-        <Z>-45</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>33</X>
-        <Y>0.5</Y>
-        <Z>27</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-19</X>
-        <Y>0.5</Y>
-        <Z>33</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>21</X>
-        <Y>0.5</Y>
-        <Z>21</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-11</X>
-        <Y>0.5</Y>
-        <Z>-9</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-27</X>
-        <Y>0.5</Y>
-        <Z>9</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>21</X>
-        <Y>0.5</Y>
-        <Z>-45</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>21</X>
-        <Y>0.5</Y>
-        <Z>39</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
@@ -3632,14 +3301,6 @@
         <Z>15</Z>
       </CoinPosition>
       <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-21</X>
-        <Y>0.5</Y>
-        <Z>-9</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
@@ -3659,14 +3320,6 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>21</X>
-        <Y>0.5</Y>
-        <Z>16.24</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
         <X>15</X>
         <Y>-6.5</Y>
         <Z>4</Z>
@@ -3675,7 +3328,7 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-10</X>
+        <X>36</X>
         <Y>7.6</Y>
         <Z>39</Z>
       </CoinPosition>
@@ -3699,9 +3352,9 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-40</X>
+        <X>0</X>
         <Y>7.6</Y>
-        <Z>39</Z>
+        <Z>45</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
     </CoinSerializable>
@@ -3723,38 +3376,6 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-45</X>
-        <Y>0.5</Y>
-        <Z>-17</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>29</X>
-        <Y>0.5</Y>
-        <Z>-21</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>19</X>
-        <Y>0.5</Y>
-        <Z>-15</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-45</X>
-        <Y>0.5</Y>
-        <Z>-45</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
         <X>-39</X>
         <Y>-6.5</Y>
         <Z>-25</Z>
@@ -3765,33 +3386,9 @@
       <CoinPosition>
         <X>15</X>
         <Y>7.6</Y>
-        <Z>33</Z>
+        <Z>39</Z>
       </CoinPosition>
       <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-21</X>
-        <Y>0.5</Y>
-        <Z>15</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-9</X>
-        <Y>7.6</Y>
-        <Z>33</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>25</X>
-        <Y>0.5</Y>
-        <Z>-21</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
@@ -3811,67 +3408,11 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>46</X>
-        <Y>7.6</Y>
-        <Z>39</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>33</X>
-        <Y>0.5</Y>
-        <Z>-29</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
         <X>-39</X>
         <Y>-6.5</Y>
         <Z>-39</Z>
       </CoinPosition>
       <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-11</X>
-        <Y>0.5</Y>
-        <Z>39</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-39</X>
-        <Y>0.5</Y>
-        <Z>11</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-3</X>
-        <Y>0.5</Y>
-        <Z>-29</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-19</X>
-        <Y>0.5</Y>
-        <Z>21</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-3</X>
-        <Y>0.5</Y>
-        <Z>-33</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
@@ -3883,70 +3424,6 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-45</X>
-        <Y>0.5</Y>
-        <Z>-13</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>17</X>
-        <Y>0.5</Y>
-        <Z>-21</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-15</X>
-        <Y>0.5</Y>
-        <Z>39</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>27</X>
-        <Y>0.5</Y>
-        <Z>-7</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>33</X>
-        <Y>0.5</Y>
-        <Z>39</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>3</X>
-        <Y>0.5</Y>
-        <Z>-13</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>3</X>
-        <Y>0.5</Y>
-        <Z>-1</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>15</X>
-        <Y>7.6</Y>
-        <Z>45</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
         <X>-3</X>
         <Y>-6.5</Y>
         <Z>27</Z>
@@ -3955,43 +3432,11 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-27</X>
-        <Y>0.5</Y>
-        <Z>21</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-25</X>
-        <Y>7.6</Y>
-        <Z>39</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
         <X>-25</X>
         <Y>-6.5</Y>
         <Z>27</Z>
       </CoinPosition>
       <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>9</X>
-        <Y>0.5</Y>
-        <Z>-27</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-10</X>
-        <Y>7.6</Y>
-        <Z>45</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
@@ -4035,43 +3480,11 @@
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
-        <X>-3</X>
-        <Y>0.5</Y>
-        <Z>-9</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
         <X>-39</X>
         <Y>-6.5</Y>
         <Z>-20</Z>
       </CoinPosition>
       <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-3</X>
-        <Y>0.5</Y>
-        <Z>7</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-3</X>
-        <Y>0.5</Y>
-        <Z>21</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>35</X>
-        <Y>0.5</Y>
-        <Z>-39</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
@@ -4092,38 +3505,6 @@
     <CoinSerializable>
       <CoinPosition>
         <X>-15</X>
-        <Y>0.5</Y>
-        <Z>-9</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>13.8799992</X>
-        <Y>0.5</Y>
-        <Z>-3</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-39</X>
-        <Y>0.5</Y>
-        <Z>-25</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-3</X>
-        <Y>7.6</Y>
-        <Z>-5</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-15</X>
         <Y>-6.5</Y>
         <Z>3</Z>
       </CoinPosition>
@@ -4140,178 +3521,10 @@
     <CoinSerializable>
       <CoinPosition>
         <X>45</X>
-        <Y>0.5</Y>
-        <Z>7</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-30</X>
-        <Y>0.5</Y>
-        <Z>-45</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-39</X>
-        <Y>0.5</Y>
-        <Z>-1</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>36</X>
-        <Y>7.6</Y>
-        <Z>39</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>0</X>
-        <Y>7.6</Y>
-        <Z>45</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>45</X>
-        <Y>0.5</Y>
-        <Z>3</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-3</X>
-        <Y>0.5</Y>
-        <Z>-1</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>5</X>
-        <Y>0.5</Y>
-        <Z>21</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-9</X>
-        <Y>0.5</Y>
-        <Z>11</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-27</X>
-        <Y>0.5</Y>
-        <Z>1</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>45</X>
         <Y>-6.5</Y>
         <Z>21</Z>
       </CoinPosition>
       <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-9</X>
-        <Y>0.5</Y>
-        <Z>7</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-39</X>
-        <Y>0.5</Y>
-        <Z>45</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-3</X>
-        <Y>7.6</Y>
-        <Z>7</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-11</X>
-        <Y>0.5</Y>
-        <Z>33</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>39</X>
-        <Y>0.5</Y>
-        <Z>5</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-14.5</X>
-        <Y>0.5</Y>
-        <Z>-15</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>25</X>
-        <Y>0.5</Y>
-        <Z>27</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-21</X>
-        <Y>0.5</Y>
-        <Z>-33</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-45</X>
-        <Y>0.5</Y>
-        <Z>23</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>31</X>
-        <Y>0.5</Y>
-        <Z>-39</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>-9</X>
-        <Y>0.5</Y>
-        <Z>-35</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
     </CoinSerializable>
     <CoinSerializable>
       <CoinPosition>
@@ -4320,30 +3533,6 @@
         <Z>10</Z>
       </CoinPosition>
       <CoinFloor>0</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>45</X>
-        <Y>0.5</Y>
-        <Z>-25</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>15</X>
-        <Y>7.6</Y>
-        <Z>39</Z>
-      </CoinPosition>
-      <CoinFloor>2</CoinFloor>
-    </CoinSerializable>
-    <CoinSerializable>
-      <CoinPosition>
-        <X>9</X>
-        <Y>0.5</Y>
-        <Z>17</Z>
-      </CoinPosition>
-      <CoinFloor>1</CoinFloor>
     </CoinSerializable>
   </CoinList>
 </SavedData>
