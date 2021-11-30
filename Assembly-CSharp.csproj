@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
-    <ProjectGuid>{67771F20-5B4F-4E6E-DBB5-1F8392FDDB46}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{0106F47A-EC06-96CE-30C7-368FCB0216E3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,43 +54,41 @@
     <UnityVersion>2020.3.21f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\MyAsset\Scripts\Character\PlayerBase.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\SaveDataRepository.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Roof.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\ObjectAftermath.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Data\Settings.cs" />
     <Compile Include="Assets\MyAsset\Scripts\Intefaces\IPingPong.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Intefaces\IExecute.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Maze.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\SerializableXMLData.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Boost.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Character\PlayerBall.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\CameraController.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Key.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\MiniMap.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Coin.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\GameController.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Luke.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\EndGame.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\SFX.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Trap.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\ObjectInteractive.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Intefaces\IRotation.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Score.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\InputController.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Water.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Reference.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\SavedData.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Door.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\GameMenu.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Controllers\InputController.cs" />
     <Compile Include="Assets\MyAsset\Scripts\Intefaces\IView.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Settings.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Lift.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\Intefaces\IFixExecute.cs" />
     <Compile Include="Assets\MyAsset\Scripts\Intefaces\IData.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\ObjectAftermath.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Data\SaveDataRepository.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\SFX.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Controllers\CameraController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\ObjectInteractive.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Score.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\GameMenu.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Data\SerializableXMLData.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Intefaces\IFixExecute.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Intefaces\IExecute.cs" />
     <Compile Include="Assets\MyAsset\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\MiniMap.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Character\PlayerBase.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Character\PlayerBall.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Reference.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Intefaces\IRotation.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Data\SavedData.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Controllers\GameController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Controllers\MainMenuController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Objects\Boost.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Objects\Trap.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Objects\Maze.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Objects\Water.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Objects\Key.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Objects\Coin.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Objects\Roof.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Objects\Door.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Objects\Luke.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Objects\Lift.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Objects\EndGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -693,8 +692,7 @@
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
